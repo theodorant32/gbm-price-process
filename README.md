@@ -18,7 +18,6 @@ This installs:
 Run the GBM script with:
 python gbm.py
 
-
 A chart will appear showing the simulated price path.
 
 ## Experimenting with Volatility
