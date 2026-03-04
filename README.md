@@ -28,6 +28,7 @@ This installs:
 python gbm.py
 ```
 
+<<<<<<< HEAD
 This will:
 1. Print the Black-Scholes and Monte Carlo call prices side by side
 2. Display a fan chart of 200 simulated price paths with the strike price overlaid
@@ -41,6 +42,9 @@ Example output:
   Difference               : $0.1017
 ========================================
 ```
+=======
+A chart will appear showing the simulated price path.
+>>>>>>> 7df2eb9ab0f908c988c5a6505c9de72212e335ba
 
 ## The Core Idea
 
@@ -59,6 +63,7 @@ C ≈ e^(-rT) * mean( max(S_T - K, 0) )
 ```
 C = S0 * N(d1) - K * e^(-rT) * N(d2)
 
+<<<<<<< HEAD
 d1 = [ ln(S0/K) + (r + σ²/2)*T ] / (σ*√T)
 d2 = d1 - σ*√T
 ```
@@ -78,3 +83,6 @@ Open `gbm.py` and adjust the parameters in `main()`:
 | `T` | 1.0 | Time to expiry (years) |
 
 You can try increasing `sigma` to `0.4` or setting `K` below `S0` (in-the-money) to see how it affects the option price and path fan
+=======
+This helps build intuition for stochastic modeling and price dynamics.
+>>>>>>> 7df2eb9ab0f908c988c5a6505c9de72212e335ba
